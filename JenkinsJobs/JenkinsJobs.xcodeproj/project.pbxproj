@@ -14,6 +14,7 @@
 		0A2B3E6622331425007C74C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2B3E6422331425007C74C9 /* LaunchScreen.storyboard */; };
 		0A2B3E7122331425007C74C9 /* JenkinsJobsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B3E7022331425007C74C9 /* JenkinsJobsTests.swift */; };
 		0A2B3E7C22331425007C74C9 /* JenkinsJobsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B3E7B22331425007C74C9 /* JenkinsJobsUITests.swift */; };
+		0A68CACA223316DE00100594 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A68CAC9223316DE00100594 /* ViewControllerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A2B3E7722331425007C74C9 /* JenkinsJobsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsJobsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2B3E7B22331425007C74C9 /* JenkinsJobsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsJobsUITests.swift; sourceTree = "<group>"; };
 		0A2B3E7D22331425007C74C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A68CAC9223316DE00100594 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0A2B3E5B22331424007C74C9 /* AppDelegate.swift */,
 				0A2B3E5D22331424007C74C9 /* ViewController.swift */,
+				0A68CAC9223316DE00100594 /* ViewControllerViewModel.swift */,
 				0A2B3E5F22331424007C74C9 /* Main.storyboard */,
 				0A2B3E6222331425007C74C9 /* Assets.xcassets */,
 				0A2B3E6422331425007C74C9 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2B3E5E22331424007C74C9 /* ViewController.swift in Sources */,
+				0A68CACA223316DE00100594 /* ViewControllerViewModel.swift in Sources */,
 				0A2B3E5C22331424007C74C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
